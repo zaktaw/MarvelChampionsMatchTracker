@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T21:21:45.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="klRTbqqUurEj9VUoZ3uA" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-16T08:48:32.334Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1GefEX2iY_YDrurHBbso" version="21.1.1" type="github" pages="2">
   <diagram name="DataModels" id="dLv1OFFR6AjuEWSmTjUl">
-    <mxGraphModel dx="1416" dy="930" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2194" dy="1210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,20 +64,8 @@
         <mxCell id="dX7askhUf25ZzPE0tpsm-44" value="Faction (Faction)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-39" vertex="1">
           <mxGeometry y="150" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-47" value="Cards (List&amp;lt;CardInDecks&amp;gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-39" vertex="1">
+        <mxCell id="dX7askhUf25ZzPE0tpsm-47" value="Marveldbc-URL (String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-39" vertex="1">
           <mxGeometry y="180" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-48" value="Card" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1208" y="-340" width="140" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-49" value="Name (String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-48" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-82" value="Pack (Pack)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-48" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-83" value="CardType (CardType)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-48" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dX7askhUf25ZzPE0tpsm-54" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;rounded=0;strokeColor=default;" parent="1" source="dX7askhUf25ZzPE0tpsm-15" target="dX7askhUf25ZzPE0tpsm-28" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -169,72 +157,24 @@
             <mxPoint x="527" y="-278" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-84" value="Pack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="-327.5" width="160" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-85" value="Name (String)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-84" vertex="1">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-88" value="CardType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="-240.5" width="160" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-89" value="Name (String)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-88" vertex="1">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-92" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="dX7askhUf25ZzPE0tpsm-85" target="dX7askhUf25ZzPE0tpsm-49" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1373" y="-73" as="sourcePoint" />
-            <mxPoint x="1473" y="-173" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-93" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dX7askhUf25ZzPE0tpsm-89" target="dX7askhUf25ZzPE0tpsm-83" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1383" y="-63" as="sourcePoint" />
-            <mxPoint x="1483" y="-163" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-94" value="CardInDeck" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="921" y="-336" width="160" height="116" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-95" value="CardId (String, FK, PK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-94" vertex="1">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-96" value="DeckId (String, FK, PK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-94" vertex="1">
-          <mxGeometry y="56" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-97" value="Quantity (Integer)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="dX7askhUf25ZzPE0tpsm-94" vertex="1">
-          <mxGeometry y="86" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-98" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1.016;exitY=0.107;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dX7askhUf25ZzPE0tpsm-41" target="dX7askhUf25ZzPE0tpsm-95" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="805" y="-178" as="sourcePoint" />
-            <mxPoint x="905" y="-278" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dX7askhUf25ZzPE0tpsm-99" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dX7askhUf25ZzPE0tpsm-49" target="dX7askhUf25ZzPE0tpsm-95" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1114" y="-366" as="sourcePoint" />
-            <mxPoint x="1214" y="-466" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZVkVqhCCfGYWv0FyNe2m" name="Features">
-    <mxGraphModel dx="1416" dy="1330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1656" dy="967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h4uky9F3k3iebqN32Jmx-1" value="&lt;div&gt;Features:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Se historikk over spilte kamper&lt;/li&gt;&lt;li&gt;Legge til kamp&lt;/li&gt;&lt;li&gt;Redigere kamp&lt;/li&gt;&lt;li&gt;Slette kamp&lt;/li&gt;&lt;li&gt;Administrere spillere (CRUD)&lt;/li&gt;&lt;li&gt;Se statistikk&lt;/li&gt;&lt;li&gt;Se achievements&lt;/li&gt;&lt;li&gt;Gjennomføre ukentlige utfordringer&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="-404" width="244" height="166" as="geometry" />
+        <mxCell id="h4uky9F3k3iebqN32Jmx-1" value="&lt;div&gt;Features:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Administrere kamper (CRUD)&lt;/li&gt;&lt;li&gt;Administrere spillere (CRUD)&lt;/li&gt;&lt;li&gt;Se statistikk&lt;/li&gt;&lt;li&gt;Se achievements&lt;/li&gt;&lt;li&gt;Gjennomføre ukentlige utfordringer&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-290" y="-382" width="244" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="LjVdK85AH1uoawSN7-qE-2" value="&lt;div&gt;Achievements:&lt;/div&gt;&lt;div&gt;Oversikt over hvilke villains er beseiret med hvilke helter og factions.&lt;/div&gt;&lt;div&gt;Oppdateres automatisk etter kamp er lagt til hvis kampen resultatet av kampen&lt;br&gt;tilfredsstiller kriteriene for achievement.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="LjVdK85AH1uoawSN7-qE-2" value="&lt;div&gt;Achievements:&lt;/div&gt;&lt;div&gt;Oversikt over hvilke villains er beseiret med hvilke helter og factions.&lt;/div&gt;&lt;div&gt;Oppdateres automatisk etter kamp er lagt til hvis kampen resultatet av kampen&lt;br&gt;tilfredsstiller kriteriene for achievement.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="152" y="-332" width="436" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LjVdK85AH1uoawSN7-qE-3" value="Weekly challenges:&lt;br&gt;&lt;br&gt;Ny utfordring hver uke.&lt;br&gt;Tilfeldig generert eller hentet ut fra database med utfodringer.&lt;br&gt;Eksempler: &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;spill mot X villain med Y og Z helt sammen.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;lag deck som inneholder dette / disse kortene.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;slå villain med X, Y, Z modules." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LjVdK85AH1uoawSN7-qE-3" value="Weekly challenges:&lt;br&gt;&lt;br&gt;Ny utfordring hver uke.&lt;br&gt;Tilfeldig generert eller hentet ut fra database med utfodringer.&lt;br&gt;Eksempler: &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;spill mot X villain med Y og Z helt sammen.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;lag deck som inneholder dette / disse kortene.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;slå villain med X, Y, Z modules." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-269" y="-111" width="486" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LjVdK85AH1uoawSN7-qE-4" value="Statistikk:&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Antall kamper spilt&lt;br&gt;&lt;/li&gt;&lt;li&gt;Antall kamper vunnet / tapt&lt;/li&gt;&lt;li&gt;Antall kamper spilt, vunnet, tapt med X helt&lt;/li&gt;&lt;li&gt;Mot X villain&lt;/li&gt;&lt;li&gt;Med X faction&lt;/li&gt;&lt;li&gt;Mest spilte kort&lt;/li&gt;&lt;li&gt;Mest brukte kort i vunnede kamper&lt;/li&gt;&lt;li&gt;Minst brukte kort&lt;/li&gt;&lt;li&gt;Mest brukte krot i tapte kamper&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LjVdK85AH1uoawSN7-qE-4" value="Statistikk:&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Antall kamper spilt&lt;br&gt;&lt;/li&gt;&lt;li&gt;Antall kamper vunnet / tapt&lt;/li&gt;&lt;li&gt;Antall kamper spilt, vunnet, tapt med X helt&lt;/li&gt;&lt;li&gt;Mot X villain&lt;/li&gt;&lt;li&gt;Med X faction&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="152" y="-114" width="372" height="30" as="geometry" />
         </mxCell>
       </root>
