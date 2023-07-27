@@ -8,6 +8,7 @@ import zaktaw.MarvelChampionsMatchTracker.services.MatchService;
 import java.util.List;
 @RestController
 @RequestMapping("/api/match")
+@CrossOrigin(origins = "http://localhost:3000")
 public class MatchController {
     @Autowired
     MatchService matchService;
